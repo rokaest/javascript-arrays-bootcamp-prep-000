@@ -3,7 +3,6 @@ var chocolateBars = [];
 chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 function addElementToBeginningOfArray(array, element) {
-  const array = array;
   var regArray = array
   regArray = regArray.unshift(element)
   

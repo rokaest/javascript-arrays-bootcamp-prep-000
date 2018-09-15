@@ -16,8 +16,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  var regEndArray = array
-  regEndArray = regEndArray.push(element)
+  var regEndArray = [...array, element]
   
   return regEndArray
 }
